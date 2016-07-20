@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+div.classificado{
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+	position: relative;
+	box-shadow: 2px 2px 2px black;
+	width: 700px;
+	background-color: white;
+}
+
+.classificado img{
+	width: 250px;
+	height: 250px;
+	float: left;
+	position: relative;
+	display: block;
+	padding-right: 20px;
+}
+
+.classificado h2{
+	text-align: center;
+}
+
+.classificado p{
+	font-size: 12pt;
+	text-align: justify;
+	padding-top: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.classificado a{
+	text-decoration: none;
+	color: black;
+}
+
+.classificado a:hover{
+	text-decoration: underline;
+}
+
+.classificado form{
+	padding-top: 10px;	
+}

@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+div.lista{
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	box-shadow: 2px 2px 2px black;
+	width: 700px;
+	background-color: white;
+}
+
+.lista img{
+	width: 50px;
+	height: 50px;
+}
+
+.lista tr{
+	display: table-header-group;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.lista td{
+	padding: 5px;
+	text-decoration: none;
+}
+
+.lista td.nomes{
+	border-top: 1px solid rgba(0,0,0,.2);
+	text-decoration: none;
+}
+
+.lista a{
+	text-decoration: none;
+	color: black;
+}
+
+.lista a:hover {
+	text-decoration: underline;
+}
+
+.nomes img#classi{
+	width: 130px;
+	height: 130px;
+}
+
+section#corpo form{
+	text-align: center;
+	padding: 20px;
+}

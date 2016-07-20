@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+section#corpo form {
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	box-shadow: 2px 2px 2px black;
+	width: 700px;
+	background-color: white;
+	text-align: center;
+}
+
+section#corpo p{
+	font-size: 12pt;
+	padding: 5px;
+}
+
+section#corpo h2{
+	font-size: 15pt;
+	padding: 5px;
+}
